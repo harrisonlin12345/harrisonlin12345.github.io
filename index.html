@@ -21,11 +21,18 @@
   </header>
   <main class="container">
     <section id="home" class="page active" aria-labelledby="home-title">
-      <div class="hero">
-        <p class="eyebrow">ELECTRICAL ENGINEERING · GEORGIA TECH</p>
-        <h1 id="home-title"><span>Harrison Lin</span></h1>
-        <p class="hero-text">I am a third year electrical engineering student at Georgia Tech interested in hardware design and electrical power systems.</p>
-        <div class="actions"><a class="button primary" href="#projects">Explore projects <span aria-hidden="true">↗</span></a><a class="button secondary" href="#resume">View resume</a></div>
+      <div class="hero hero-with-photo">
+        <div class="hero-copy">
+          <p class="eyebrow">ELECTRICAL ENGINEERING · GEORGIA TECH</p>
+          <h1 id="home-title"><span>Harrison Lin.</span></h1>
+          <p class="hero-text">I am a third year electrical engineering student at Georgia Tech interested in hardware design and electrical power systems.<</p>
+          <div class="actions"><a class="button primary" href="#projects">Explore projects <span aria-hidden="true">↗</span></a><a class="button secondary" href="#resume">View resume</a></div>
+        </div>
+        <div class="portrait-frame">
+          <!-- Add your photo at images/profile.jpg. The placeholder appears until then. -->
+          <img src="images/profile.jpeg" alt="Portrait of Harrison Lin" onerror="this.style.display='none'">
+          <div class="portrait-placeholder" aria-hidden="true">HL</div>
+        </div>
       </div>
       <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Featured projects</h2></div><a class="text-link" href="#projects">All projects →</a></div>
       <div class="project-grid">
@@ -44,8 +51,8 @@
       <p class="eyebrow">BUILD LOG</p><h1 id="projects-title" class="page-title">Projects<span>.</span></h1><p class="page-intro">A selection of embedded, digital, and analog hardware projects. Repository links can be added as projects are published.</p>
       <div class="project-list">
         <article class="project-row"><div><p class="project-number">01 / EMBEDDED SYSTEMS</p><h2>DIY MIDI DJ Controller</h2><p>Custom Rekordbox MIDI controller built around an Arduino Micro. The design uses two MCP23017 I2C GPIO expanders for digital controls and two 74HC4067 multiplexers for analog inputs. Firmware maps buttons, encoders, faders, and potentiometers to MIDI messages.</p><div class="tags"><span>Arduino Micro</span><span>C++</span><span>KiCad</span><span>I2C</span><span>USB MIDI</span></div><a class="text-link repo-link" data-repo="midi-dj-controller" href="#">View repository ↗</a></div><div class="project-row-art visual-midi">♫</div></article>
-        <article class="project-row"><div><p class="project-number">02 / DIGITAL DESIGN · IN PROGRESS</p><h2>FPGA UART Transceiver</h2><p>Verilog UART transmitter and receiver project focused on serial framing, baud-rate timing, finite-state machines, and simulation-based verification.</p><div class="tags"><span>Verilog</span><span>UART</span><span>ModelSim</span></div><a class="text-link repo-link" data-repo="fpga-uart-transceiver" href="#">View repository ↗</a></div><div class="project-row-art visual-uart">⌁</div></article>
-        <article class="project-row"><div><p class="project-number">03 / ANALOG ELECTRONICS</p><h2>Guitar Distortion Pedal</h2><p>Analog audio circuit and PCB design exploring clipping, filtering, and guitar signal processing.</p><div class="tags"><span>Analog Circuits</span><span>KiCad</span><span>PCB</span></div><a class="text-link repo-link" data-repo="guitar-distortion-pedal" href="#">View repository ↗</a></div><div class="project-row-art visual-pedal">∿</div></article>
+        <article class="project-row"><div><p class="project-number">02 / DIGITAL DESIGN</p><h2>FPGA UART Transceiver</h2><p>Verilog UART transmitter and receiver project focused on serial framing, baud-rate timing, finite-state machines, and simulation-based verification.</p><div class="tags"><span>Verilog</span><span>UART</span><span>ModelSim</span></div><a class="text-link repo-link" data-repo="fpga-uart-transceiver" href="#">View repository ↗</a></div><div class="project-row-art visual-uart">⌁</div></article>
+        <article class="project-row"><div><p class="project-number">03 / ANALOG ELECTRONICS</p><h2>Guitar Distortion Pedal</h2><p>Analog audio circuit and PCB design with clipping, filtering, and guitar signal processing.</p><div class="tags"><span>Analog Circuits</span><span>KiCad</span><span>PCB</span></div><a class="text-link repo-link" data-repo="guitar-distortion-pedal" href="#">View repository ↗</a></div><div class="project-row-art visual-pedal">∿</div></article>
       </div>
     </section>
     <section id="resume" class="page" aria-labelledby="resume-title"><p class="eyebrow">EXPERIENCE & EDUCATION</p><h1 id="resume-title" class="page-title">Resume<span>.</span></h1><p class="page-intro">View my engineering experience, education, technical skills, and projects.</p><div class="resume-card"><div class="resume-icon">▤</div><div><h2>Harrison Lin — Resume</h2></div><a class="button primary" href="resume.pdf" target="_blank" rel="noopener">Open PDF ↗</a></div><div class="resume-summary"><div><p class="eyebrow">EXPERIENCE</p><h3>L3Harris Technologies</h3><p>Electrical Engineering Intern</p><p>Designed aircraft and ground-station electrical systems, produced 50+ wiring diagrams, and resolved 25+ production engineering issues.</p></div><div><p class="eyebrow">EDUCATION</p><h3>Georgia Institute of Technology</h3><p>B.S. Electrical Engineering</p></div></div></section>

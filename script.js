@@ -1,8 +1,8 @@
 // EDIT THESE LINKS to customize your site.
 const config = {
-  githubUsername: 'harrisonlin12345',
-  linkedinUrl: 'https://www.linkedin.com/in/harrisonylin/',
-  email: 'hlin467@gatech.edu',
+  githubUsername: 'YOUR_USERNAME',
+  linkedinUrl: 'https://www.linkedin.com/in/YOUR_LINKEDIN/',
+  email: 'YOUR_EMAIL@example.com',
   repositories: {
     'midi-dj-controller': '',
     'fpga-uart-transceiver': '',
