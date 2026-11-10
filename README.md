@@ -1,67 +1,22 @@
-# harrisonlin12345.github.io
+# Engineering Portfolio
 
-# Hi, I'm Harrison Lin
+Personal portfolio website for Harrison Lin, built with HTML, CSS, and JavaScript and designed for GitHub Pages.
 
-I'm an Electrical Engineering student at the Georgia Institute of Technology with interests in embedded systems, digital hardware design, PCB design, and power electronics.
+## Publish at `https://YOUR_USERNAME.github.io/`
 
-I previously worked as an Electrical Engineering Intern at L3Harris Technologies, where I designed aircraft electrical systems, performed electrical load analyses, and resolved production engineering issues.
+1. Create a **public** GitHub repository named exactly `YOUR_USERNAME.github.io` (replace `YOUR_USERNAME` with your actual GitHub username).
+2. Upload `index.html`, `styles.css`, `script.js`, and your resume as `resume.pdf` to the **root** of the repository. Do not upload only the ZIP file.
+3. Edit the `config` object at the top of `script.js` with your GitHub username, LinkedIn URL, email, and project repository URLs.
+4. Go to repository **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
+5. After deployment, visit `https://YOUR_USERNAME.github.io/`.
 
-Outside of coursework, I enjoy building hardware projects that combine circuit design, microcontrollers, and software.
+## Customize
 
-## Featured Projects
+- Edit text, experience, project descriptions, and statuses in `index.html`.
+- Edit colors, spacing, and fonts in `styles.css`.
+- Add actual project repository URLs in `script.js`.
+- Place a current `resume.pdf` alongside `index.html` to enable the Resume PDF button.
 
-### [DIY MIDI DJ Controller](YOUR_REPOSITORY_LINK)
-**Arduino Micro | C++ | KiCad | I2C | USB MIDI**
+The Home, About, Projects, and Resume navigation links work without a framework or build step. The site uses URL hashes (`#about`, etc.) so all four pages work with static GitHub Pages hosting.
 
-Custom MIDI DJ controller designed to interface with Rekordbox.
-
-- Designed a PCB in KiCad integrating an Arduino Micro, two MCP23017 I2C GPIO expanders, and two 74HC4067 analog multiplexers.
-- Developed Arduino firmware to read buttons, rotary encoders, potentiometers, and faders and translate user inputs into MIDI commands.
-- Implemented controls for playback, cueing, channel volume, EQ, effects, and track navigation.
-
-### [FPGA UART Transceiver](YOUR_REPOSITORY_LINK)
-**Verilog | UART | FPGA | ModelSim**
-
-UART transmitter and receiver implemented in Verilog.
-
-- Designed UART transmit and receive modules using finite-state machines.
-- Implemented serial communication logic with configurable baud-rate timing.
-- Developed simulation testbenches to verify serial data transmission and reception.
-
-### [16-bit CPU](YOUR_REPOSITORY_LINK)
-**Digital Logic | Computer Architecture | HDL**
-
-Custom 16-bit processor designed to explore digital hardware architecture.
-
-- Designed a 16-bit datapath integrating an arithmetic logic unit (ALU), registers, and control logic.
-- Implemented instruction execution and data movement between processor components.
-- Explored processor architecture, instruction decoding, and sequential logic.
-
-### [Guitar Distortion Pedal](YOUR_REPOSITORY_LINK)
-**Analog Electronics | KiCad | PCB Design**
-
-Custom guitar distortion pedal developed using analog circuit design and PCB layout.
-
-- Designed an analog distortion circuit for processing guitar audio signals.
-- Created circuit schematics and PCB layouts in KiCad.
-- Explored signal clipping, filtering, and analog audio processing.
-
-## Technical Skills
-
-**Programming & HDL:** C/C++, Verilog, VHDL, MATLAB, Python
-
-**Hardware & Embedded:** Arduino, FPGA, I2C, UART, SPI, CAN, PCB Design, Digital Logic
-
-**Engineering Tools:** KiCad, Siemens NX, Siemens Capital, MATLAB/Simulink, ModelSim
-
-**Areas of Interest:** Embedded Systems, Digital Design, Power Electronics, Signal Processing, Photonics
-
-## Education
-
-**Georgia Institute of Technology**  
-B.S. Electrical Engineering
-
-## Connect
-
-- **LinkedIn:** [Your LinkedIn](YOUR_LINKEDIN_URL)
-- **Email:** YOUR_EMAIL
+**Before publishing:** Verify all project descriptions and skill claims reflect work you've actually completed. Don't publish proprietary employer materials.
